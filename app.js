@@ -74,6 +74,15 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
    else if(session.message.text.toLowerCase().contains('search pokemon')){
       session.send(`Pikachu lang kilala ko.`);
       }
+   
+    else if(session.message.text.toLowerCase().contains('gabia')){
+      session.send(`TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!`);
+      }
+   
+   else if(session.message.text.toLowerCase().contains('kanta ka nga')){
+      session.send(`Meep meep meep, ang sabi ng meep. Meep meep meep meep mee-meep meep!!!`);
+      }
+   
 
    else{
         session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
