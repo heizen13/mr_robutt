@@ -158,18 +158,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
    }
    
    
-   
-   //addded something something
-   
-   else if(session.message.text.toLowerCase().contains('(kilala mo )'){
-   
-   
-}
-           
-   //added something something
-           
-           
-           
+    
    
    
    
