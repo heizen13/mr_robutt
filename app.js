@@ -48,43 +48,106 @@ bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello bruh!, Zup bruh?`);
       }else if(session.message.text.toLowerCase().contains('help')){
-        session.send(`How can I help you bruh? I don't have any money... b-but I can give you a hug..... :$ `);
+        session.send(`Wala akong maibibigay na tulong sayo!`);
           }
    else if(session.message.text.toLowerCase().contains('who are you') | session.message.text.toLowerCase().contains('sino ka')){
-        session.send("Hello, I'm bowtt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
+        session.send("Hello, I'm Mr Robutt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
       }
   
-   else if(session.message.text.toLowerCase().contains('dubidubidap')){
-      session.send(`Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
+   else if(session.message.text.toLowerCase().contains('dubidubidap') | session.message.text.toLowerCase().contains('kanta ka')){
+      session.send(`Meep meep meep.. ang sabi ng meep.. meep meep meep meep mee-beem meep!!!`);
       }
    
-   
-   else if(session.message.text.toLowerCase().contains('uwian') | session.message.text.toLowerCase().contains('tara uwi')){
+   else if(session.message.text.toLowerCase().contains('uwi')){
       session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
       }
+   
+   else if(session.message.text.toLowerCase().contains('kanteen') | session.message.text.toLowerCase().contains('canteen')){
+      session.send(`LEGO~! BETCH!! (cool) `);
+      }
+   
    else if(session.message.text.toLowerCase().contains('suplado mo') | session.message.text.toLowerCase().contains('galit ka')){
       session.send(` (donttalk) `);
       }
-else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
-      session.send(`gago haha`);
+else if(session.message.text.toLowerCase().contains('meron ka')){
+      session.send(`ito lng meron ako (cash) `);
       }
    
-   else if(session.message.text.toLowerCase().contains('search pokemon')){
-      session.send(`Pikachu lang kilala ko.`);
+   else if(session.message.text.toLowerCase().contains('morning') | session.message.text.toLowerCase().contains('ohayo') | session.message.text.toLowerCase().contains('umaga')){
+      session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
       }
    
-    else if(session.message.text.toLowerCase().contains('gabia')){
-      session.send(`TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!`);
+    else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
+      session.send(`Pikachu lang kilala ko. Astig kasi ng skill nya, flametrower.`);
       }
-   
-   else if(session.message.text.toLowerCase().contains('kanta ka nga')){
-      session.send(`Meep meep meep, ang sabi ng meep. Meep meep meep meep mee-meep meep!!!`);
+   else if(session.message.text.toLowerCase().contains('pikachu')){
+      session.send(`My favorite digimonster! <3`);
       }
    
    
 
+ else if(session.message.text.toLowerCase().contains('use ')){
+    
+    if(session.message.text.toLowerCase().contains('use hyperbeam')){
+      session.send(`Bowtt used hyperbeam!`);
+      session.send(`KAME-HAME-WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`); 
+      session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
+    }
+else if(session.message.text.toLowerCase().contains('use splash')){
+      session.send(`Bowtt used splash!`); 
+      session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/236x/91/1d/5b/911d5b2c5d919dda6e2d371276e97650.jpg'}]});
+      session.send(`......instantly killed enemies nearby.`); 
+}
+    else{
+    session.send(`di ko pa alm yan.`);
+    }
+    }
+   
+   else if(session.message.text.toLowerCase().contains('bobo')){
+      session.send(`weaboo ka naman. :P`);
+   }
+else if(session.message.text.toLowerCase().contains('angas') | session.message.text.toLowerCase().contains('yabang mo')){
+      session.send(` (cool) `);
+   }
+   
+   else if(session.message.text.toLowerCase().contains('pogi ba')){
+      session.send(` (puke) `);
+   }
+
+else if(session.message.text.toLowerCase().contains('what is')){
+      session.send(` ¯\_(ツ)_/¯ google mo nalang.. `);
+   }
+else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
+      session.send(` BADing ka naman. :P `);
+   }
+
+else if(session.message.text.toLowerCase().contains('useless')){
+      session.send(`C-A-N-C-E-R ka naman!! :P`);
+   }
+
+else if(session.message.text.toLowerCase().contains('copy ')){
+      session.send(session.message.text);
+   }
+   
+    else if(session.message.text.toLowerCase().contains('yakult')){
+      session.send('Yakult everyday, everynight, every-midnight!! Yakult all the time! Yan ang buhay mo!! Puro ka yakult!! Yakult ka ng yakult!! Yakulero!! :D');
+   }
+   
+   else if(session.message.text.toLowerCase().contains('(finger)')){
+      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
+   }
+   
+   else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
+      session.send('•_•)');
+      session.send('( •_•)>⌐■-■');
+      session.send('(⌐■_■)');
+      session.send(' (cool) ');
+      session.send('di naman..');
+      session.send('medyo lang.');
+   }
+   
    else{
-        session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
+        
       }
 });
  
