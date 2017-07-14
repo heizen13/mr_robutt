@@ -83,6 +83,9 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
       session.send(`Meep meep meep, ang sabi ng meep. Meep meep meep meep mee-meep meep!!!`);
       }
    
+   else if(session.message.text.toLowerCase().contains('jibanyan')){
+      session.send(`Siya ang pinakamalakas ng player Pokeland legend. Walang sinomang mga trainer ang nakatalo sa kanya. Isa siyang legendary player!!!`);
+      }
 
    else{
         session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
