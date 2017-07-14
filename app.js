@@ -46,6 +46,9 @@ bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello bruh!, Zup bruh?`);
       }
+   if(session.message.text.toLowerCase().contains('help')){
+      session.send(`Try \n kilala mo si [name] \n astig mo \n kanta ka nga \n pokemon \n pikachu \n good morning`);
+      }
    
    else if(session.message.text.toLowerCase().contains('who are you') | session.message.text.toLowerCase().contains('sino ka')){
         session.send("Hello, I'm Mr Robutt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
@@ -145,7 +148,7 @@ else if(session.message.text.toLowerCase().contains('copy ')){
       session.send(`🎵🎵Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep! 🎵🎵`);
    }
  else if(session.message.text.toLowerCase().contains('montero') | session.message.text.toLowerCase().contains('gerrem')){
-      session.send('Si Vice ba? Nasa show pa paba yon?');
+      session.send('Si Vice ba? Nasa showtime pa paba yon?');
    }
    else if(session.message.text.toLowerCase().contains('salazar') | session.message.text.toLowerCase().contains('piele')){
       session.send('Ahh yung sumbungero...');
