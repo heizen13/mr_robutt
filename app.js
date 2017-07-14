@@ -163,13 +163,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
    
    else if(session.message.text.toLowerCase().contains('(kilala mo )'){
    
-   if(session.message.text.toLowerCase().contains('gabia') | session.message.text.toLowerCase().contains('dindo') | session.message.text.toLowerCase().contains('bryan')){
-      session.send("TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!");
-   }
    
-   else{
-   session.send('Di ko kilala yan');
-   }
 }
            
    //added something something
