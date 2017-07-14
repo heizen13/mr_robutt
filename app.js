@@ -170,7 +170,7 @@ else if(session.message.text.toLowerCase().contains('copy ')){
       session.send('•_•)');
       session.send('( •_•)>⌐■-■');
       session.send('(⌐■_■)');
-      session.send(' (cool) ');
+      session.send(' 😎 ');
       session.send('di naman..');
       session.send('medyo lang.');
    }
