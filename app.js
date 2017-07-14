@@ -137,9 +137,26 @@ else if(session.message.text.toLowerCase().contains('copy ')){
       session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
    }
    
-   else if(session.message.text.toLowerCase().contains('gabia') | session.message.text.toLowerCase().contains('dindo') | session.message.text.toLowerCase().contains('bryan')){
+   else if(session.message.text.toLowerCase().contains('(kilala mo )'){
+   
+   if(session.message.text.toLowerCase().contains('gabia') | session.message.text.toLowerCase().contains('dindo') | session.message.text.toLowerCase().contains('bryan')){
       session.send("TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!");
    }
+   
+   else if(session.message.text.toLowerCase().contains('neil') | session.message.text.toLowerCase().contains('gelizon')){
+      session.send('You mean si Kuya Wil? yung kumanta ng...');
+      session.send(`🎵🎵Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep! 🎵🎵`);
+   }
+ else if(session.message.text.toLowerCase().contains('montero') | session.message.text.toLowerCase().contains('gerrem')){
+      session.send('Si Vice ba? Nasa show pa paba yon?');
+   }
+   else if(session.message.text.toLowerCase().contains('salazar') | session.message.text.toLowerCase().contains('piele')){
+      session.send('Ahh yung sumbungero...');
+   }
+   else{
+   session.send('Di ko kilala yan');
+   }
+}
    
    else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
       session.send('•_•)');
