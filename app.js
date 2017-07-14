@@ -57,9 +57,7 @@ bot.dialog('/', function (session) {
    else if(session.message.text.toLowerCase().contains('dubidubidap')){
       session.send(`Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
       }
-   else if(session.message.text.toLowerCase().contains('delinquent')){
-      session.send(`Timesheet-timesheet din kasi pag may time!!! (cwl) `);
-      }
+   
    
    else if(session.message.text.toLowerCase().contains('uwian') | session.message.text.toLowerCase().contains('tara uwi')){
       session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
