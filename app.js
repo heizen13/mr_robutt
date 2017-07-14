@@ -14,7 +14,7 @@ var connector = new builder.ChatConnector({
   
    
    appId: "45af4b31-b429-4d7a-bcfc-a1edd8bbf462",
-    appPassword: "ACkjkbM5BSZu6bLier9DGmk"
+    appPassword: "peNMfTKB8te0WaEjcOaS5SA"
    
 });
 var bot = new builder.UniversalBot(connector);
@@ -48,7 +48,9 @@ bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello bruh!, Zup bruh?`);
       }else if(session.message.text.toLowerCase().contains('help')){
-        session.send(`Wala akong maibibigay na tulong sayo!`);
+        session.send(`Type `);
+        session.send(`kilala mo ba si [name]\n kanta ka \n good morning/ohayo/magandang umaga \n astig mo/astig ka \n pokemon/pikachu \n use [pokemon skills] \n useless ka \n What is [yung gusto mong ipa search]?
+         `);
           }
    else if(session.message.text.toLowerCase().contains('who are you') | session.message.text.toLowerCase().contains('sino ka')){
         session.send("Hello, I'm Mr Robutt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
@@ -74,7 +76,7 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
       }
    
    else if(session.message.text.toLowerCase().contains('morning') | session.message.text.toLowerCase().contains('ohayo') | session.message.text.toLowerCase().contains('umaga')){
-      session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
+      session.send(`Ohayo Gozaimasu! pare-ko-sama~!`);
       }
    
     else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
