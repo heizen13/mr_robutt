@@ -97,7 +97,7 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
  else if(session.message.text.toLowerCase().contains('use ')){
     
     if(session.message.text.toLowerCase().contains('use hyperbeam')){
-      session.send(`Bowtt used hyperbeam!`);
+      session.send(`Mr Robutt used hyperbeam!`);
       session.send(`KAME-HAME-WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
     }
