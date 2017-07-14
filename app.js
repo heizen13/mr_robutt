@@ -157,6 +157,44 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send('medyo lang.');
    }
    
+   
+   
+   //addded something something
+   
+   else if(session.message.text.toLowerCase().contains('(kilala mo )'){
+   
+   if(session.message.text.toLowerCase().contains('gabia') | session.message.text.toLowerCase().contains('dindo') | session.message.text.toLowerCase().contains('bryan')){
+      session.send("TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!");
+   }
+   
+   else if(session.message.text.toLowerCase().contains('neil') | session.message.text.toLowerCase().contains('gelizon')){
+      session.send('You mean si Kuya Wil? yung kumanta ng...');
+      session.send(`🎵🎵Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep! 🎵🎵`);
+   }
+ else if(session.message.text.toLowerCase().contains('montero') | session.message.text.toLowerCase().contains('gerrem')){
+      session.send('Si Vice ba? Nasa show pa paba yon?');
+   }
+   else if(session.message.text.toLowerCase().contains('salazar') | session.message.text.toLowerCase().contains('piele')){
+      session.send('Ahh yung sumbungero...');
+   }
+   else{
+   session.send('Di ko kilala yan');
+   }
+}
+           
+   //added something something
+           
+           
+           
+   
+   
+   
+   
+   
+   
+   
+   
+   
    else{
         
       }
