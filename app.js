@@ -137,6 +137,10 @@ else if(session.message.text.toLowerCase().contains('copy ')){
       session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
    }
    
+   else if(session.message.text.toLowerCase().contains('gabia') | session.message.text.toLowerCase().contains('dindo') | session.message.text.toLowerCase().contains('bryan')){
+      session.send("TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!");
+   }
+   
    else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
       session.send('•_•)');
       session.send('( •_•)>⌐■-■');
