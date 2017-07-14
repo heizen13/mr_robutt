@@ -47,8 +47,16 @@ bot.dialog('/', function (session) {
       session.send(`Hello bruh!, Zup bruh?`);
       }
    if(session.message.text.toLowerCase().contains('help')){
-      session.send(`Try \n kilala mo si [name] \n astig mo \n kanta ka nga \n pokemon \n pikachu \n good morning`);
-      }
+       session.send(`Try mo to`);
+       session.send(`kilala mo si [name]`);
+       session.send(`astig mo`);
+       session.send(`kanta ka nga`);
+       session.send(`pikachu`); 
+       session.send(`pokemon`); 
+       session.send(`use [pokemon skill]`);
+       session.send(`good morning/ohayo/magandang umaga`); 
+      
+   }
    
    else if(session.message.text.toLowerCase().contains('who are you') | session.message.text.toLowerCase().contains('sino ka')){
         session.send("Hello, I'm Mr Robutt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
