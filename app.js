@@ -1,5 +1,9 @@
 var restify = require('restify');
 var builder = require('botbuilder');
+
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://u4hhkjllfpbxzpa:eXPrDXL1tQTysT5IA9Lm@bmikeyxae8urdmd-mongodb.services.clever-');
+
 //=========================================================
 // Bot Setup
 //=========================================================
