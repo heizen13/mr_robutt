@@ -3,6 +3,25 @@ var builder = require('botbuilder');
 
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://u4hhkjllfpbxzpa:eXPrDXL1tQTysT5IA9Lm@bmikeyxae8urdmd-mongodb.services.clever-');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  // we're connected!
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //=========================================================
 // Bot Setup
