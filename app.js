@@ -531,7 +531,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
     
    }   
 
- else if(session.message.text.toLowerCase().contains('sample')){
+ else if(session.message.text.toLowerCase().contains('test')){
       session.send('┬──┬ ノ( ゜-゜ノ)');
       session.send('Meep~!');
    } 
