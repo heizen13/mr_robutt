@@ -210,7 +210,7 @@ else if(session.message.text.toLowerCase().contains('copy ')){
   
   
   
-   else if(session.message.text.toLowerCase().contains('nyan..')){
+   else if(session.message.text.toLowerCase().contains('nyan')){
    session.send(' 😎 ');
      
      var kittySchema = mongoose.Schema({
