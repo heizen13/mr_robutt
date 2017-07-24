@@ -533,6 +533,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 
  else if(session.message.text.toLowerCase().contains('sample')){
       session.send('┬──┬ ノ( ゜-゜ノ)');
+      session.send('Meep~!');
    } 
   
 
