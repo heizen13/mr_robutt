@@ -2,6 +2,13 @@ var restify = require('restify');
 var builder = require('botbuilder');
 
 
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://u4hhkjllfpbxzpa:eXPrDXL1tQTysT5IA9Lm@bmikeyxae8urdmd-mongodb.services.clever-cloud.com:27017/bmikeyxae8urdmd');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  // we're connected!
+});
 
 
 
@@ -526,7 +533,9 @@ else if(session.message.text.toLowerCase().contains('sad')){
     
    }   
 
-  
+ else if(session.message.text.toLowerCase().contains('sample')){
+      session.send('┬──┬ ノ( ゜-゜ノ)');
+   } 
   
 
    
