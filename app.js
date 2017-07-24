@@ -197,22 +197,8 @@ else if(session.message.text.toLowerCase().contains('copy ')){
       session.send('di naman..');
       session.send('medyo lang.');
    }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   else{
-session.send('error..');
-      }
+  else{
+  session.send('(⌐■_■)');
+  }
 });
  
