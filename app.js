@@ -246,7 +246,7 @@ fluffy.speak(); // "Meow name is fluffy"
    }
    else{
      
-        
+        session.send('error..');
       }
 });
  
